@@ -1,0 +1,17 @@
+{
+  "name": "at",
+  "repo": "threepointone/at",
+  "description": "safe object access",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {
+    "threepointone/times":"*",
+    "matthewp/keys":"*",
+    "manuelstofer/each":"*"
+    },
+  "development": {},
+  "license": "MIT",
+  "scripts": [
+    "index.js"
+  ]
+}

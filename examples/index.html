@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+	<script src="../build/build.js"></script>
+	<script>
+		var o = {a:{b:1}};
+		var at = require('at').at;
+		var setAt = require('at').setAt;
+
+		console.log(at(o, 'a.b'));
+		setAt(o, 'a.c.d.e', 'xyz');
+		console.log(at(o, 'a.c.d.e'));
+		console.log(o);
+
+	</script>
+
+</body>
+</html>
