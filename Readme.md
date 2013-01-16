@@ -31,7 +31,7 @@ console.log(at(o, 'a.b.c.d'));
 
 ```
 
-## Tests(pending)
+## Tests (pending)
 install dependencies - 
 ```
 npm install
