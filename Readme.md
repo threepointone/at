@@ -12,8 +12,8 @@
 var at = require('at').at;
 var setAt = require('at').setAt;
 
-var o = {a:
-	{
+var o = {
+    a:{
 		b:1
 	}
 };
@@ -26,7 +26,7 @@ console.log(at(o, 'a.b.c'));
 
 setAt(o, 'a.b.c.d.e', 'magic');
 
-console.log(at(o, 'a.b.c.d'));
+console.log(o.a.b.c.d);
 // { e:'magic' }
 
 ```
